@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "detalle del pais";
+}
+<div>
+<h1>Nombre: @ViewBag.Pais.Nombre </h1>
+<h2>Poblacion: @ViewBag.Pais.Poblacion</h2>
+<h2>Fecha de independencia: @ViewBag.Pais.FechaIndependencia </h2>
+<h2>Atractivo turistco más importante: @ViewBag.Pais.AtractivosTuristicos</h2>
+<img src= "/ImagenesBanderas/@ViewBag.Pais.imgBandera" width="300">
+</div>
